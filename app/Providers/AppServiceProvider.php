@@ -34,7 +34,6 @@ class AppServiceProvider extends ServiceProvider
          if (!File::exists(public_path() . '/storage'))
             Artisan::call('storage:link');
 
-         Artisan::call('db:seed');
          Artisan::call('translations:import');
          File::delete(storage_path() . '/framework/.install');
       }

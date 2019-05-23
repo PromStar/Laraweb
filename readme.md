@@ -6,7 +6,11 @@
 
 > composer install
 
-On first run system will configure automatically. No need to run artisan commands. By default system will seed one account (admin@admin.com : password)
+3. Seed database, by default will be one account (admin@admin.com : password)
+
+> php artisan db:seed
+
+On first run system will configure automatically. No need to run artisan command (key generate or migrate).
 
 ## Adminpanel to manage companies
 
