@@ -4,11 +4,11 @@
 
 2. Open cmd and run:
 
-> composer install
+```composer install```
 
 3. Seed database, by default will be one account (admin@admin.com : password)
 
-> php artisan db:seed
+```php artisan db:seed```
 
 On first run system will configure automatically. No need to run artisan command (key generate or migrate).
 
